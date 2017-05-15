@@ -1,0 +1,1 @@
+DROP TABLE Sales, MovieGenre, MovieDirector, MovieActor, MovieRating, Review, MaxPersonID, MaxMovieID, Movie, Actor, Director;

@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>CS143 Web Query</title>
+
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
     </head>
     <body>
         <center>
@@ -18,7 +21,7 @@
 <?php
     // Connect to DB and Query
     $db_connection = mysql_connect("localhost", "cs143", "");
-    mysql_select_db("CS143", $db_connection);
+    mysql_select_db("TEST", $db_connection);
     $query = $_POST["query"];
     $result = mysql_query($query, $db_connection);
     if (strlen($query) == 0) {

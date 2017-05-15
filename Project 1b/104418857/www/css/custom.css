@@ -1,0 +1,64 @@
+body {
+    background-color: #e1e8f0 !important;
+}
+.tb td {
+    border: solid 1px #000000 !important;
+}
+
+.bb {
+    border-top: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.nb {
+    border-top: 0px !important;
+}
+
+.table-bless th, .table-bless td { 
+     border-top: none !important;
+ }
+
+ .table-b th, .table-b td {
+     border-top: none !important;
+     border-bottom: 1px solid #a9a9a9 !important;
+ }
+
+.navbar-custom {
+    background-color:#9068be !important;
+}
+
+.nav-text {
+    color: #ffffff !important;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #9068be;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
+}
+
+.tb {
+    border-color: #000000 !important;
+}
